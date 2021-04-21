@@ -1,7 +1,9 @@
 # GDANN
 
 --------------
-Demo of GDANN (https://www.mdpi.com/1424-8220/21/7/2369/htm#)
+Demo of GDANN 
+
+[An EEG-Based Transfer Learning Method for Cross-Subject Fatigue Mental State Prediction](https://www.mdpi.com/1424-8220/21/7/2369/htm#)
 
 
 
@@ -9,9 +11,10 @@ Demo of GDANN (https://www.mdpi.com/1424-8220/21/7/2369/htm#)
 
 ---------------
 
-1. Go to **prepocess** folder to see how to do the preprocess work using **PSD**.
-2. Go to **classification** folder to see how to run the classifiction work using **GDANN**.
-
+#### 1. Go to **prepocess** folder to see how to do the preprocess work using **PSD**.
+   ![PSD](/docs/psd.png)
+#### 2. Go to **classification** folder to see how to run the classifiction work using **GDANN**.
+   ![GDANN](/docs/gdann.png)
 
 
 ## Citation
