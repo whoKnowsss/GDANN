@@ -5,7 +5,7 @@ Demo of GDANN (https://www.mdpi.com/1424-8220/21/7/2369/htm#)
 
 
 
-##Getting Started
+## Getting Started
 
 ---------------
 
@@ -14,7 +14,7 @@ Demo of GDANN (https://www.mdpi.com/1424-8220/21/7/2369/htm#)
 
 
 
-##Citation
+## Citation
 
 -------
 
