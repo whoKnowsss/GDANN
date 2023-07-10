@@ -15,13 +15,11 @@ class ReverseLayerF(Function):
     @staticmethod
     def forward(ctx, x, alpha):
         ctx.alpha = alpha
-
         return x.view_as(x)
 
     @staticmethod
     def backward(ctx, grad_output):
         output = grad_output.neg() * ctx.alpha
-
         return output, None
 
 
@@ -38,17 +36,17 @@ def optimizer_scheduler(optimizer, p):
     return optimizer
 
 
-def one_hot_embedding(labels, num_classes=10):
+def one_hot_embedding(labels, class_number=10):
     """Embedding labels to one-hot form.
 
     Args:
       labels: (LongTensor) class labels, sized [N,].
-      num_classes: (int) number of classes.
+      class_number: (int) number of classes.
 
     Returns:
       (tensor) encoded labels, sized [N, #classes].
     """
-    y = torch.eye(num_classes)
+    y = torch.eye(class_number)
     return y[labels]
 
 
