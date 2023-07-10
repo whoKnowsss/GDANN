@@ -3,6 +3,7 @@ import torch.nn.functional as F
 from utils import ReverseLayerF
 
 
+
 def block(in_feat, out_feat, normalize=False):
     layers = [nn.Linear(in_feat, out_feat)]
     if normalize:
